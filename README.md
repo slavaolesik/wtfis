@@ -120,7 +120,7 @@ GETs data from the `/shodan/host/{ip}` endpoint (see [doc](https://developer.sho
 
 ### NetAPI
 
-[NetAPI](https://netapi.com) publishes two free blocklists: [compromised domains](https://netapi.com/compromised-urls/) (malware, phishing and C2 domains) and [compromised IPs](https://netapi.com/compromised-ips/) (addresses that attacked its honeypot sensors in the last 30 days). No API key is needed. For the queried hostname, domain or IP, wtfis shows:
+[NetAPI](https://netapi.com) publishes two free blocklists: [compromised domains](https://netapi.com/compromised-urls/) (found by its own detection, malware domains held by sinkhole name servers and domains related to confirmed phishing, plus CERT Polska's phishing list) and [compromised IPs](https://netapi.com/compromised-ips/) (addresses that attacked its honeypot sensors, listed now for 48 hours and in the past for 30 days). No API key is needed. For the queried hostname, domain or IP, wtfis shows:
 
 * Whether it is listed now, was listed in the past or is not listed
 * The reason of the listing

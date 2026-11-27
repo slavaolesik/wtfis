@@ -1796,7 +1796,7 @@ class TestNetApiOnly:
         assert table.columns[1]._cells == [
             Text("listed"),
             "github.com",
-            "blackbook",
+            "hole.cert.pl",
             "2023-02-25",
             display_timestamp("2026-11-20T01:05:38Z"),
         ]
